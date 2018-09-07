@@ -518,6 +518,10 @@ header {}
     top: 4px;
     right: -11px;
 }
+.type_price, .type_price_value {
+	font-size: 12px;
+	color: #aaa;
+}
 /* new_menu */
 
 nav.topmenu {
