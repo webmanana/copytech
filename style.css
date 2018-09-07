@@ -124,7 +124,9 @@ a {
 	cursor: pointer;
 	outline: none;
 }
-
+a:hover {
+	text-decoration: none;
+}
 ol, ul, dl, ol ol, ul ul, ol ul, ul ol {
 	list-style: none;
 	list-style-type: none;
