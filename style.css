@@ -18,7 +18,74 @@
 	font-weight: bold;
 	font-style: normal;
 }
+#smartFilter .filtren {
+	border-radius: 0 !important;
+	border: 1px solid #eee !important;
 
+}
+#smartFilter .lvl1_simple #ul_145.lvl2 .props {
+	width: 100% !important;
+}
+#smartFilter .prs {
+	width: auto !important;
+}
+
+.f_li.lvl2>input {
+	margin-right: 3px;
+}
+#smartFilter .lvl1_simple ul.lvl2, #smartFilter .lvl1_price_group ul.lvl2, .scroll_brands {
+	display: flex;
+	flex-wrap: wrap;
+}
+#smartFilter .lvl1, #smartFilter .smartbuttons {
+	background-image: none !important;
+}
+#smartFilter .lvl1_simple .lvl2 .props {
+	background-image: none !important;
+	background: white !important;
+	border: 0 !important;
+	width: 50% !important;
+	padding: 0px;
+}
+#smartFilter .lvl1_simple .lvl2 .props label {
+	margin-bottom: 8px;
+	line-height: 16px;
+	margin-top: -2px;
+}
+#smartFilter a.prop_name {
+	font-size: 15px;
+	padding-right: 30px;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+#smartFilter .lvl1 {
+	position: relative;
+}
+#smartFilter .lvl1_simple ul.lvl2[style="display: none;"] + .clear:after{
+	content: "+";
+}
+#smartFilter .lvl1_simple ul.lvl2 + .clear:after {
+	content: "-";
+	position: absolute;
+	right: 20px;
+	top: 15px;
+	font-size: 20px;
+	line-height: 18px;
+	color: #1E85DA;
+}
+#coupons_block {
+  display: none;
+}
+#smartFilter .scroll_brands .props {
+	width: auto !important;
+}
+.brand_list_filter {
+	display: none;
+}
+#smartFilter .scroll_brands {
+	height: auto !important;
+}
 .js_fancy_window {
 	display: inline-flex;
 }
