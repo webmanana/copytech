@@ -466,6 +466,15 @@ header {}
     color: #000;
     font-weight: 500;
 }
+#allSum_FORMATED {
+	font-size: 16px;
+}
+.bx_sort_container {
+	display: none;
+}
+.bx_ordercart .bx_ordercart_order_pay_right {
+	width: 100%!important;
+}
 .bx_ordercart_order_table_container .custom table {
     background-color: #eee;
     position: relative;
