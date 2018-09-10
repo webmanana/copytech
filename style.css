@@ -985,6 +985,67 @@ ul.hidden-links.hidden {
 	border-bottom: none;
 }
 
+/* popup */
+.modal-dialog {
+	max-width: 400px;
+}
+.modal-footer {
+    justify-content: center!important;
+	border: none;
+	background-color: #eaf0f4;
+	padding: 20px 15px;
+}
+.modal-footer a {
+	color: #00467f;
+	font-size: 14px;
+	border-bottom: 1px solid #bbcedd;
+}
+.modal-header  {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+	border: none;
+	padding: 15px 30px;
+}
+.modal-content {
+	border-radius: 0;
+}
+.modal_input {
+    display: flex;
+    flex-direction: column;
+}
+.modal_input input[type=text] {
+	padding: 15px;
+	color: #eee;
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+.modal-body {
+	padding: 30px;
+}
+.modal_button input[type=submit] {
+    background-color: #075290;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.modal_button {
+	display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     align-content: space-between;
+}
+.modal_button a {
+	color: #00467f;
+	font-size: 14px;
+}
+.modal-title {
+	font-size: 24px;
+}
 /* Популярные товары */
 
 .popular__content {
