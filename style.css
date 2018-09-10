@@ -1014,10 +1014,12 @@ ul.hidden-links.hidden {
     flex-direction: column;
 }
 .modal_input input[type=text] {
-	padding: 15px;
-	color: #eee;
-	margin-bottom: 15px;
-	font-size: 14px;
+    padding: 15px;
+    color: #000;
+    margin-bottom: 15px;
+    font-size: 14px;
+    outline-color: #eee;
+    border: 1px solid #eee;
 }
 .modal-body {
 	padding: 30px;
@@ -1031,6 +1033,9 @@ ul.hidden-links.hidden {
     border: none;
     padding: 15px 30px;
     cursor: pointer;
+}
+.modal_button input[type=submit]:hover {
+    background-color: #0a5ea4;
 }
 .modal_button {
 	display: flex;
