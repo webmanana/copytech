@@ -2312,9 +2312,112 @@ ul.hidden-links.hidden {
 	font-weight: 500;
 	margin-bottom: 25px;
 }
-
+/* compare */
+.compare_img_inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 25%;
+}
+.compare_img_block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 40px;
+    max-width: 300px;
+}
+.compare_img_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.compare_img_block img {
+	margin-bottom: 15px;
+}
+.compare_img_block span {
+	font-size: 16px;
+	font-weight: 500;
+}
+.compare_close {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.compare_list_desc, .compare_list_price {
+	display: flex;
+	flex-direction: row;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #eee;
+	font-size: 14px;
+}
+.compare_list_desc li, .compare_list_price li {
+	width: 25%;
+}
+.compare_title {
+	color: #999999;
+}
+.compare_price {
+	font-size: 16px;
+	font-weight: 500;
+}
+.compare_price_currency {
+	font-size: 13px;
+	padding-left: 8px;
+}
+.compare_price_container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 14px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.compare_price_container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+}
+.compare_price_container:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+.compare_price_container input:checked ~ .checkmark {
+	background-color: #2196F3;
+}
+.checkmark:after {
+  content: " ";
+  position: absolute;
+  display: none;
+}
+.compare_price_container input:checked ~ .checkmark:after {
+  display: block;
+}
+.checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 7px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
 /* footer */
-
 footer {
 	background-color: #222222;
 	padding-top: 50px;
