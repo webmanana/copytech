@@ -1051,8 +1051,84 @@ ul.hidden-links.hidden {
 .modal-title {
 	font-size: 24px;
 }
+/* профиль */
+.profile_sidebar ul li {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.profile_sidebar ul li a {
+	padding: 18px 30px;
+	color: #000;
+	font-weight: 500;
+	font-size: 16px;
+	background-color: #fff;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+.profile_sidebar ul li:last-child a {
+	border-bottom: 1px solid #eee;
+}
+.profile_sidebar ul li a.active {
+	color: #fff;
+	background-color: #075290;
+}
+.login {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 30px;
+}
+.login_block {
+	width: 33%;
+}
+.name_inner_block, .login_block {
+	display: flex;
+	flex-direction: column;
+	-ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+    max-width: 33%;
+	padding-right: 15px;
+    padding-left: 15px;
+}
+.name_inner_block label, .login_block label {
+	color: #aaa;
+}
+.login_block input, .name_inner_block input {
+	padding: 15px;
+	outline: none;
+}
+.name_inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.profile_info {
+    padding: 30px 15px;
+    border: 1px solid #eee;
+}
+.name_inner_block {
+	margin-bottom: 30px;
+}
+.password_inner {
+	padding: 30px;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+.save_change {
+	background-color: #f9f9f9;
+	padding: 30px;
+}
+.save_button {
+	background-color: #075290;
+	padding: 14px 20px;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+}
 /* Популярные товары */
-
 .popular__content {
 	margin-top: 16px;
 }
