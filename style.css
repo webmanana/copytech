@@ -1110,10 +1110,25 @@ ul.hidden-links.hidden {
 .name_inner_block {
 	margin-bottom: 30px;
 }
+.password {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
 .password_inner {
-	padding: 30px;
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+    padding: 30px 15px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+.password span {
+    padding-left: 15px;
+    color: #aaa;
+    font-size: 13px;
+    display: flex;
+    width: 100%;
+}
+.pass_block {
+	margin-bottom: 15px;
 }
 .save_change {
 	background-color: #f9f9f9;
@@ -2626,6 +2641,11 @@ footer {
 	.bx_ordercart .bx_ordercart_order_table_container table tbody td td input[type=text] {
 	    left: 25px;
 	}
+	.name_inner_block, .login_block {
+	    -ms-flex: 0 0 50%;
+	    flex: 0 0 50%;
+	    max-width: 50%;
+	}
 }
 
 @media (min-width: 992px) and (max-width:1200px) {
@@ -2670,6 +2690,11 @@ footer {
 }
 
 @media (max-width: 780px) {
+	.name_inner_block, .login_block {
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
 	.bx_ordercart .bx_ordercart_order_table_container tbody td.itemphoto {
 		width: 100%!important;
 	}
