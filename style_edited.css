@@ -122,9 +122,6 @@
 	background: #00467f !important;
 	color: white !important;
 }
-.afbf_captcha_reload {
-	display: none !important;
-}
 .modal #alx_feed_back_FID1 .afbf_item_pole.is_focused .afbf_select, .modal #alx_feed_back_FID1 .afbf_item_pole.is_focused .afbf_textarea, .modal #alx_feed_back_FID1 .afbf_item_pole.is_focused .afbf_inputtext {
 	border-color: #00467f !important;
 }
